@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #0B4F6C !important;
 		}
 
 	strong, b {
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #0B4F6C;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #0B4F6C;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #0B4F6C;
 		}
 
 	select {
@@ -1953,7 +1953,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #0B4F6C;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2401,8 +2401,9 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
+			/*Icons for section 2 */
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #0B4F6C;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2618,7 +2619,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #0B4F6C;
 			color: #ffffff !important;
 		}
 
@@ -2700,7 +2701,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #CD4631;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2709,6 +2710,8 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
+		font-family: Helvetica, sans-serif;
+		
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2772,7 +2775,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #F7BFB4;
 				}
 
 		#header > nav {
@@ -2789,32 +2792,32 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+				
 					display: block;
 					padding: 0;
 				}
-
+					/*Added small amount of animation to right side nav and changed color scheme */
 					#header > nav ul li a {
 						-moz-transition: none;
 						-webkit-transition: none;
 						-ms-transition: none;
-						transition: none;
+						transition: 0.3s;
 						border: 0;
-						color: #ffffff !important;
+						color: #F7BFB4 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 						/* Changes background color for active part of list */
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #5e1b11;
+							color: #F7F9F9 !important;
 						}
 
 						/*Changes background color for hover part of list */
 						#header > nav ul li a.hover {
-							background: #40b495;
-							color: #ffffff !important;
+							background: #8f2f21;
+							color: #F7F9F9 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2832,6 +2835,7 @@ input, select, textarea {
 
 	#main > section {
 		border-top: solid 6px #f4f4f4;
+		background: #FFFFFA;
 	}
 
 		#main > section > .container {
@@ -3082,7 +3086,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #0B4F6C;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
