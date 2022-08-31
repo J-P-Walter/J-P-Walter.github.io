@@ -1,5 +1,5 @@
 # Website
-Personal Website - W.I.P\
+Personal Website - W.I.P
 
 Can find at: https://j-p-walter.github.io/
 
